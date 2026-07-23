@@ -1,0 +1,73 @@
+# **************************************************************************** #
+# 42 School - Generic .gitignore                                               #
+# **************************************************************************** #
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# Executables (common names)
+a.out
+
+# Debugging
+*.dSYM/
+vgcore.*
+core
+core.*
+*.gcda
+*.gcno
+*.gcov
+
+# Coverage
+coverage/
+*.profraw
+*.profdata
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Linux
+.directory
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Vim
+.vim/
+
+# Backup files
+*.bak
+
+# Generated documentation
+docs/html/
+docs/latex/
+
+# CMake (if you experiment with it)
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.old
+
+# Ignore local environment files
+.env
